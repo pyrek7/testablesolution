@@ -20,7 +20,7 @@ namespace Math.Tests
             Assert.AreEqual(res,result);
         }
 
-        [TestCase(1,1,57)]
+        [TestCase(1,1,0)]
         [TestCase(1,5,-4)]
         public void TestMinus(double a, double b, double result)
         {
